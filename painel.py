@@ -103,7 +103,7 @@ def carregar_bases():
     verificar_arquivo("SETTLED.xlsx")
     verificar_arquivo("relatorio_tratado.xlsx")
 
-    entradas = pd.read_excel("ENTRADAS_ANALISE.xlsx")
+    entradas = pd.read_excel("PLAN.xlsx")
     settled = pd.read_excel("SETTLED.xlsx")
     relatorio = pd.read_excel("relatorio_tratado.xlsx")
 
